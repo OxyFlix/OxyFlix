@@ -1,7 +1,7 @@
 const shows = [
     {
         id: 1,
-        img: 'images/theboys.jpg',
+        img: 'imagess/theboys.jpg',
         title: 'The Boys',
         desc: 'The Boys is an American superhero black comedy drama television series developed by Eric Kripke and based on the Dynamite Entertainment comic series of the same name by Garth Ennis and Darick Robertson.',
         seasons: [
@@ -61,7 +61,7 @@ const shows = [
     },
     {
         id: 2,
-        img: 'images/breakingbad.jpg',
+        img: 'imagess/breakingbad.jpg',
         title: 'Breaking Bad',
         desc: 'Set and filmed in Albuquerque, New Mexico, the series follows Walter White, an underpaid, dispirited high-school chemistry teacher struggling with a recent diagnosis of stage-three lung cancer.',
         seasons: [
@@ -81,7 +81,7 @@ const shows = [
     },
     {
         id: 3,
-        img: 'images/bettercallsaul.jpg',
+        img: 'imagess/bettercallsaul.jpg',
         title: 'Better Call Saul',
         desc: 'Better Call Saul is anchored by two Breaking Bad regulars: Saul himself and Michael Ehrmantraut, a former cop who becomes a fixer for a powerful Mexican cartel, setting his life on a course that will ultimately intersect with that of Jimmy and his most notorious future client.',
         seasons: [
@@ -104,7 +104,7 @@ const shows = [
     },
     {
         id: 4,
-          img: 'images/peakyblinders.jpg',
+          img: 'imagess/peakyblinders.jpg',
           title: 'Peaky Blinders',
           desc: 'Peaky Blinders is a British crime drama television series set in Birmingham, England in the aftermath of World War I',
           seasons: [
@@ -123,7 +123,7 @@ const shows = [
     },
     {
             id: 5,
-              img: 'images/narcos.jpg',
+              img: 'imagess/narcos.jpg',
               title: 'Narcos',
               desc: 'Narcos is an American crime drama series set in Colombia, depicting the powerful story of drug lord Pablo Escobar and the DEAs efforts to bring down his notorious cartel in the 1980s.',
               seasons: [
@@ -146,7 +146,7 @@ const shows = [
     },
     {
             id:6,
-              img: 'images/thesopranos.jpg',
+              img: 'imagess/thesopranos.jpg',
               title: 'The Sopranos',
               desc: 'The Sopranos, created by David Chase, is a critically acclaimed American TV series about New Jersey mob boss Tony Soprano, blending his family life with organized crime.',
               seasons: [
