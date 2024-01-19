@@ -88,5 +88,47 @@ const shows = [
                 ]
             }
         ]
-    }
-];
+    },
+    {
+        id: 4,
+          img: 'images/peakyblinders.jpg',
+          title: 'Peaky Blinders',
+          desc: 'Peaky Blinders is a British crime drama television series set in Birmingham, England in the aftermath of World War I',
+          seasons: [
+          {
+              seasonNumber: 1,
+              episodes: [
+                  { episodeNumber: 1, title: 'Uno', videoUrl: 'https://vidsrc.to/embed/tv/tt2442560/1/1' },
+                  { episodeNumber: 2, title: 'Mijo', videoUrl: 'https://vidsrc.to/embed/tv/tt2442560/1/2' },
+                  { episodeNumber: 3, title: 'Nacho', videoUrl: 'https://vidsrc.to/embed/tv/tt2442560/1/3' },
+                  { episodeNumber: 4, title: 'Hero', videoUrl: 'https://vidsrc.to/embed/tv/tt2442560/1/4' },
+                  { episodeNumber: 5, title: 'Alpine Shepherd Boy', videoUrl: 'https://vidsrc.to/embed/tv/tt2442560/1/5' },
+                  { episodeNumber: 6, title: 'Five-O', videoUrl: 'https://vidsrc.to/embed/tv/tt2442560/1/6' }
+                ]
+            }
+        ]
+    },
+    {
+            id: 5,
+              img: 'images/narcos.jpg',
+              title: 'Narcos',
+              desc: 'Narcos" is an American crime drama series set in Colombia, depicting the powerful story of drug lord Pablo Escobar and the DEAs efforts to bring down his notorious cartel in the 1980s.',
+              seasons: [
+              {
+                  seasonNumber: 1,
+                  episodes: [
+                      { episodeNumber: 1, title: 'Uno', videoUrl: 'https://vidsrc.to/embed/tv/tt2707408/1/1' },
+                      { episodeNumber: 2, title: 'Mijo', videoUrl: 'https://vidsrc.to/embed/tv/tt2707408/1/2' },
+                      { episodeNumber: 3, title: 'Nacho', videoUrl: 'https://vidsrc.to/embed/tv/tt2707408/1/3' },
+                      { episodeNumber: 4, title: 'Hero', videoUrl: 'https://vidsrc.to/embed/tv/tt2707408/1/4' },
+                      { episodeNumber: 5, title: 'Alpine Shepherd Boy', videoUrl: 'https://vidsrc.to/embed/tv/tt2707408/1/5' },
+                      { episodeNumber: 6, title: 'Five-O', videoUrl: 'https://vidsrc.to/embed/tv/tt2707408/1/6' },
+                      { episodeNumber: 7, title: 'Five-O', videoUrl: 'https://vidsrc.to/embed/tv/tt2707408/1/7' },
+                      { episodeNumber: 8, title: 'Five-O', videoUrl: 'https://vidsrc.to/embed/tv/tt2707408/1/8' },
+                      { episodeNumber: 9, title: 'Five-O', videoUrl: 'https://vidsrc.to/embed/tv/tt2707408/1/9' },
+                      { episodeNumber: 10, title: 'Five-O', videoUrl: 'https://vidsrc.to/embed/tv/tt2707408/1/10' }
+                    ]
+                }
+            ]
+        },
+    ];
