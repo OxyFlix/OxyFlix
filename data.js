@@ -21,27 +21,40 @@ const shows = [
             {
                 seasonNumber: 2,
                 episodes: [
-                    { episodeNumber: 1, title: 'Episode 1', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/2/1' },
-                    { episodeNumber: 2, title: 'Episode 2', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/2/2' },
-                    { episodeNumber: 3, title: 'Episode 3', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/2/3' },
-                    { episodeNumber: 4, title: 'Episode 4', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/2/4' },
-                    { episodeNumber: 5, title: 'Episode 5', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/2/5' },
-                    { episodeNumber: 6, title: 'Episode 6', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/2/6' },
-                    { episodeNumber: 7, title: 'Episode 7', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/2/7' },
-                    { episodeNumber: 8, title: 'Episode 8', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/2/8' }
+                    { episodeNumber: 1, title: 'The Big Ride', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/2/1' },
+                    { episodeNumber: 2, title: 'Proper Preparation and Planning', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/2/2' },
+                    { episodeNumber: 3, title: 'Over the Hill With the Swords of a Thousand Men', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/2/3' },
+                    { episodeNumber: 4, title: 'Nothing Like It in the World', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/2/4' },
+                    { episodeNumber: 5, title: 'We Gotta Go Now', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/2/5' },
+                    { episodeNumber: 6, title: 'The Bloody Doors Off', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/2/6' },
+                    { episodeNumber: 7, title: 'Butcher, Baker, Candlestick Maker', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/2/7' },
+                    { episodeNumber: 8, title: 'What I Know', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/2/8' }
                 ]
             },
             {
                 seasonNumber: 3,
                 episodes: [
-                    { episodeNumber: 1, title: 'Episode 1', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/3/1' },
-                    { episodeNumber: 2, title: 'Episode 2', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/3/2' },
-                    { episodeNumber: 3, title: 'Episode 3', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/3/3' },
-                    { episodeNumber: 4, title: 'Episode 4', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/3/4' },
-                    { episodeNumber: 5, title: 'Episode 5', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/3/5' },
-                    { episodeNumber: 6, title: 'Episode 6', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/3/6' },
-                    { episodeNumber: 7, title: 'Episode 7', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/3/7' },
-                    { episodeNumber: 8, title: 'Episode 8', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/3/8' }
+                    { episodeNumber: 1, title: 'Payback', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/3/1' },
+                    { episodeNumber: 2, title: 'The Only Man in the Sky', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/3/2' },
+                    { episodeNumber: 3, title: 'Barbary Coast', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/3/3' },
+                    { episodeNumber: 4, title: 'Glorious Five Year Plan', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/3/4' },
+                    { episodeNumber: 5, title: 'The Last Time to Look on This World of Lies', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/3/5' },
+                    { episodeNumber: 6, title: 'Herogasm', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/3/6' },
+                    { episodeNumber: 7, title: 'Here Comes a Candle to Light You to Bed', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/3/7' },
+                    { episodeNumber: 8, title: 'The Instant White-Hot Wild', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/3/8' }
+                ]
+            },
+            {
+                seasonNumber: 4,
+                episodes: [
+                    { episodeNumber: 1, title: 'Department of Dirty Tricks', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/4/1' },
+                    { episodeNumber: 2, title: 'Life Among the Septics', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/4/2' },
+                    { episodeNumber: 3, title: 'We will Keep the Red Flag Flying', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/4/3' },
+                    { episodeNumber: 4, title: 'Wisdom Of The Ages', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/4/4' },
+                    { episodeNumber: 5, title: 'Episode 5', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/4/5' },
+                    { episodeNumber: 6, title: 'Dirty Business', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/4/6' },
+                    { episodeNumber: 7, title: 'The Insider', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/4/7' },
+                    { episodeNumber: 8, title: 'Assasination Run', videoUrl: 'https://vidsrc.to/embed/tv/tt1190634/4/8' }
                 ]
             }
         ]
@@ -112,7 +125,7 @@ const shows = [
             id: 5,
               img: 'images/narcos.jpg',
               title: 'Narcos',
-              desc: 'Narcos" is an American crime drama series set in Colombia, depicting the powerful story of drug lord Pablo Escobar and the DEAs efforts to bring down his notorious cartel in the 1980s.',
+              desc: 'Narcos is an American crime drama series set in Colombia, depicting the powerful story of drug lord Pablo Escobar and the DEAs efforts to bring down his notorious cartel in the 1980s.',
               seasons: [
               {
                   seasonNumber: 1,
@@ -129,6 +142,32 @@ const shows = [
                       { episodeNumber: 10, title: 'Five-O', videoUrl: 'https://vidsrc.to/embed/tv/tt2707408/1/10' }
                     ]
                 }
+          ]
+    },
+    {
+            id:6,
+              img: 'images/thesopranos.jpg',
+              title: 'The Sopranos',
+              desc: 'The Sopranos, created by David Chase, is a critically acclaimed American TV series about New Jersey mob boss Tony Soprano, blending his family life with organized crime.',
+              seasons: [
+              {
+                  seasonNumber: 1,
+                  episodes: [
+                      { episodeNumber: 1, title: 'Uno', videoUyl: 'https://vidsrc.to/embed/tv/tt01418428/1/1' },
+                      { episodeNumber: 2, title: 'Uno', videoUyl: 'https://vidsrc.to/embed/tv/tt0141842/1/2' },
+                      { episodeNumber: 3, title: 'Uno', videoUyl: 'https://vidsrc.to/embed/tv/tt0141842/1/3' },
+                      { episodeNumber: 4, title: 'Uno', videoUyl: 'https://vidsrc.to/embed/tv/tt0141842/1/4' },
+                      { episodeNumber: 5, title: 'Uno', videoUyl: 'https://vidsrc.to/embed/tv/tt0141842/1/5' },
+                      { episodeNumber: 6, title: 'Uno', videoUyl: 'https://vidsrc.to/embed/tv/tt0141842/1/6' },
+                      { episodeNumber: 7, title: 'Uno', videoUyl: 'https://vidsrc.to/embed/tv/tt0141842/1/7' },
+                      { episodeNumber: 8, title: 'Uno', videoUyl: 'https://vidsrc.to/embed/tv/tt0141842/1/8' },
+                      { episodeNumber: 9,  title: 'Uno', videoUyl: 'https://vidsrc.to/embed/tv/tt0141842/1/9' },
+                      { episodeNumber: 10, title: 'Uno', videoUyl: 'https://vidsrc.to/embed/tv/tt0141842/1/10' },
+                      { episodeNumber: 11, title: 'Uno', videoUyl: 'https://vidsrc.to/embed/tv/tt0141842/1/11' },
+                      { episodeNumber: 12, title: 'Uno', videoUyl: 'https://vidsrc.to/embed/tv/tt0141842/1/12' },
+                      { episodeNumber: 13, title: 'Uno', videoUyl: 'https://vidsrc.to/embed/tv/tt0141842/1/13' },
+                    ]
+                }
             ]
         },
-    ];
+  ];
