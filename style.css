@@ -172,6 +172,31 @@ section, article {
 margin-bottom: 20px;
 }
 
+.season-element {
+  padding: 10px 15px;
+  margin: 10px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.season-element:hover {
+  transform: scale(1.05);
+  background-color: #7d0800;
+}
+
+.season-element.active {
+  background-color: #ffbf00;
+  color: black;
+}
+
+
 @media (max-width: 768px) {
   h1 {
       font-size: 1.875rem;
