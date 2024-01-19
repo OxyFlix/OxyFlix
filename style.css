@@ -1,0 +1,206 @@
+/* Global Reset and Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Improved box model */
+}
+
+html {
+    font-size: 100%; /* Base font size for REM units */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+    transition: background-color 0.3s ease;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #000;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: fadeIn 2s ease-in-out;
+}
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#navbar a:hover, #navbar a:focus { /* Accessibility improvement */
+    color: #e50914;
+    transform: scale(1.1);
+}
+
+#navbar a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #e50914;
+    transition: width 0.4s ease;
+}
+
+#navbar a:hover::after, #navbar a:focus::after {
+    width: 100%;
+    left: 0;
+}
+
+/* Search and Filter Styles */
+#search-and-filter {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+#search-bar {
+    padding: 0.75rem;
+    width: 70%;
+    border: 2px solid #e50914;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    margin-right: 10px;
+    background-color: #111;
+    color: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.filter-btn {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.filter-btn:hover {
+    background-color: #7d0800;
+    transform: scale(1.05);
+}
+
+/* Main Content and Grid */
+#main-content {
+    padding: 2rem;
+    animation: fadeInContent 1.5s ease-in-out;
+}
+
+.shows-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.show-card {
+    background-color: #202020;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.show-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Shadow effect for depth */
+}
+
+.show-card img {
+width: 100%;
+height: auto;
+display: block;
+}
+
+.show-card-content {
+padding: 15px;
+}
+
+.show-card-title {
+margin-bottom: 10px;
+font-size: 1.25rem;
+}
+
+.show-card-description {
+color: #bbb;
+font-size: 1rem;
+}
+
+/* Footer Styles */
+footer {
+background-color: #111;
+text-align: center;
+padding: 1rem 0;
+font-size: 1rem;
+color: #aaa;
+}
+
+a, button {
+transition: all 0.3s ease;
+}
+
+button:hover {
+box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+section, article {
+margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+      font-size: 1.875rem;
+  }
+  #navbar a {
+      margin: 0 5px;
+      font-size: 1rem;
+  }
+
+  #search-bar {
+      width: 90%;
+      margin-bottom: 10px;
+  }
+
+  .filter-btn {
+      padding: 10px 15px;
+  }
+
+  #main-content, footer {
+      padding: 1.25rem;
+  }
+}
+
+@keyframes fadeIn {
+from { opacity: 0; }
+to { opacity: 1; }
+}
+
+@keyframes fadeInContent {
+0% { opacity: 0; transform: translateY(20px); }
+100% { opacity: 1; transform: translateY(0); }
+}
