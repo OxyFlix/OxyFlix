@@ -11,10 +11,10 @@ function initHomePage() {
     const showCard = document.createElement('div');
     showCard.className = 'show-card';
     showCard.innerHTML = `
-      <img src="images/MV5BZTIwNjdjZmUtZDJmOC00M2RmLTg2NTItMTMzZjZhNTk3YjVmXkEyXkFqcGdeQWFybm8@._V1_.jpg" alt="${show.title} thumbnail">
+      <img src="${show.img}" alt="${show.title} thumbnail">
       <div class="show-card-content">
         <h3 class="show-card-title">${show.title}</h3>
-        <p class="show-card-description">The Boys is an American superhero black comedy drama television series developed by Eric Kripke and based on the Dynamite Entertainment comic series of the same name by Garth Ennis and Darick Robertson.</p>
+        <p class="show-card-description">${show.desc}</p>
       </div>
     `;
     showCard.addEventListener('click', () => loadSeasons(show));
@@ -53,10 +53,10 @@ function displayShows(showsToDisplay) {
         const showCard = document.createElement('div');
         showCard.className = 'show-card';
         showCard.innerHTML = `
-          <img src="images/MV5BZTIwNjdjZmUtZDJmOC00M2RmLTg2NTItMTMzZjZhNTk3YjVmXkEyXkFqcGdeQWFybm8@._V1_.jpg" alt="${show.title} thumbnail">
+          <img src="${show.img}" alt="${show.title} thumbnail">
           <div class="show-card-content">
             <h3 class="show-card-title">${show.title}</h3>
-            <p class="show-card-description">The Boys is an American superhero black comedy drama television series developed by Eric Kripke and based on the Dynamite Entertainment comic series of the same name by Garth Ennis and Darick Robertson.</p>
+            <p class="show-card-description">${show.desc}</p>
           </div>
         `;
         showCard.addEventListener('click', () => loadSeasons(show));
